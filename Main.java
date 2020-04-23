@@ -2,9 +2,13 @@
 public class Main {
 
   public static void Main(String[] args) {
-    // Hej fra eamv-fkj-extra
-    String input = System.in.readLine();
+    try {
+      // Hej fra eamv-fkj-extra
+      char c = (char) System.in.read();
+      //String input = System.in.read();
 
-    System.out.println(input);
+      //System.out.println(input);
+    }
+    catch (Exception e) {}
   }
 }
